@@ -9,11 +9,16 @@
     font-family: "National Park", sans-serif;
 }
 
+
 html, body{
     font-size: 14px;
     font-weight: 400;
     background-color: #000000;
     color: #fff;
+}
+
+html{
+	scroll-behavior: smooth;
 }
 
 .container{
@@ -45,8 +50,17 @@ html, body{
     font-weight: 600;
 }
 
-.span-col{
-    color: #fabbcb;
+a{
+	color: white;
+	transition: background-color 0.5s;
+}
+
+a:hover{
+color: #f084a1;
+}
+
+.introduction{
+	font-size: 20px;
 }
 
 nav{
@@ -59,6 +73,10 @@ nav a{
     font-weight: 500;
     margin-left: 20px;
     color: white;
+}
+
+.span-col{
+	color: #ff698e;
 }
 
 .width-50{
